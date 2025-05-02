@@ -1,0 +1,134 @@
+html{
+  height: 100%;
+}
+body{
+     
+    background: linear-gradient(to bottom right, black 40%, red 50%, darkred 60%, black 100%);
+    
+  }
+  /* @media(max-width=555px){
+
+    #L-btn {
+        border-color: white;
+        color: white;
+        width: 35%;
+        height: 7%;
+        margin-left: 27%;
+    }
+    
+  
+    }
+    #S-btn {
+      border-color: white;
+      color: white;
+      width: 35%;
+      height: 7%;
+      margin-left: 27%;
+  } */
+#S-btn{
+  border: 2px solid rgb(255, 255, 255);
+  width: 15%;
+  /* border: white; */
+  color: aliceblue;
+
+}
+  .input{
+    
+    width: 100%;
+    padding-bottom: 2%;
+    
+  }
+  @media(max-width:500px){
+    #h1{
+width: 0%;
+/* margin: 0%; */
+    }
+    #inputdiv {
+        border: none;
+    }
+}
+  #inputdiv{
+    height: 40%;
+    border: 5px solid gray;
+    background: linear-gradient(to bottom right, black, red, darkred, black ,);
+padding: 30px 30px;
+border-radius: 10px ;
+width: 90%;
+margin-bottom: 20%;
+margin-top: 10%;
+margin-left: 5%;
+/* margin: auto; */
+
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+gap: 20px;
+
+
+
+
+
+}
+#para{
+color: rgb(255, 255, 255);
+font-style: italic;
+text-decoration:rgb(21, 16, 16) wavy underline
+
+
+}
+#h1{
+width: 13%;
+color: aliceblue;
+border-bottom: 3px solid white;
+}
+#submitbutto{
+  width: 8%;
+}
+.submitbutton{
+  width: 100%;
+}
+#tododiv{
+padding: 30px ;
+border: 5px solid
+ black;height: 80%;
+  width:50%;
+  margin: auto;
+  margin-top: 10%;
+  border-radius: 10px ;}
+#L-btn{
+border-color:white ;
+color: white;
+width: 15%;
+height: 10%;
+/* margin-left: 85%; */
+/* margin-top: 1%; */
+
+
+
+
+}
+
+#todoobject{
+  margin-left: 30%;
+  width: 7px;
+
+}
+@media(max-width:520px){
+  #inputdiv{
+    border: none;
+    /* background-color: rgb(255, 255, 255); */
+    
+  }
+  #L-btn{
+    width: 30%;
+  }
+  #h1{
+    border: none;
+  }
+}
+@media(max-width:707px){
+  #S-btn{
+    width: 30%;
+  }
+  
+}
